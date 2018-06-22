@@ -1,7 +1,159 @@
+/*******************************CODE COULEUR
+Rouge : #b50829;
+Bleu : #057ca5;
+*/
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
-body {
+/***********************************HEADER*/
+header {
+    padding: 1em 1em;
+}
+/***********************************LOGO*/
+.logo {
+  float: left;
+}
+/***********************************MENU*/
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+}
+.menu ul {
+  align-self: flex-end;
+  display:flex;
+  flex-wrap: wrap;
+  list-style-type:none;
+  line-height: 8.5em;
+  margin-right: 2em;
+}
+.menu ul li {
+  padding-left: 3.6em;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #057ca5;
+  font-size: 16px;
+  font-weight: normal;
+}
+.menu ul li a:active {
+  color: #b50829;
+}
+/******************SCROLLBOX SLIDER*/
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+    opacity: 0.05;
+}
+.bx-wrapper:hover .bx-prev, .bx-wrapper:hover .bx-next {
+  opacity: 1 !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background-color: #057ca5 !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #b50829 !important;
+}
+.button-slide-left, .button-slide-right {
+    background-color: #b50829;
+    width: 5.8%;
+    height: auto;
+    padding: 1em;
+}
+.button-slide-left {
+    position: absolute;
+    left: 4em;
+    top: 20em;
+}
+.button-slide-right {
+    position: absolute;
+    right: 4em;
+    top: 20em;
+}
+.button-slide-left a, .button-slide-right a {
+    color: #fff; sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+    position: absolute;
+    bottom: 20px !important;
+}
+.bx-wrapper {
+  margin-bottom: 0px !important;
+  padding: 0;
+  border-width: 0px !important;
+}
 
+/*************************************BURGER*/
+/*  margin: 50px auto;
+  max-width: 700px;
+  width: 95%;
 }
+
+#checkbox1,
+.toggle {
+  display: none;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  align-self: center;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+  transition: background .2s linear;
+}*/
+
+/***********************bandeau ACCUEIL*/
+.bandeau {
+  background-color: #057ca5;
+  width: 100%;
+  padding: 2em 0;
+}
+.bandeau p {
+  color: #fff;
+  text-align: center;
+}
+.bold {
+  font-size: 30px;
+}
+/***********************PRESENTATION ACCUEIL*/
+.presentation {
+  clear: both;
+  /*padding: 0 2em;*/
+  /*background-image: url("img/cabinet.jpg");
+  width: 100%;
+  height: auto;*/
+}
+.presentation h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #b50829;
+}
+.presentation p {
+  font-family: 'Roboto', sans-serif;
+}
+/*************************NOURRISSON ACCUEIL*/
+
+/*********************FEMME ENCEINTE ACCUEIL*/
+
+/******************MEDECINE CHINOISE ACCUEIL*/
