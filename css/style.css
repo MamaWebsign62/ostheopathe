@@ -18,14 +18,14 @@ header {
   float: left;
 }
 /***********************************MENU*/
-.menu {
+#menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   height: 150px;
 }
-.menu ul {
+#menu ul {
   align-self: flex-end;
   display:flex;
   flex-wrap: wrap;
@@ -33,17 +33,82 @@ header {
   line-height: 8.5em;
   margin-right: 2em;
 }
-.menu ul li {
+#menu ul li {
   padding-left: 3.6em;
 }
-.menu ul li a {
+#menu ul li a {
   text-decoration: none;
   color: #057ca5;
   font-size: 16px;
   font-weight: normal;
 }
-.menu ul li a:active {
+#menu ul li a:active {
   color: #b50829;
+}
+/******************MENU BURGER*/
+#menu-burger {
+  display: none;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+}
+/******************BURGER*/
+#menu-burger .burger {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#menu-burger .burger span {
+  width: 90%;
+  height: 5px;
+  background-color: #b50829;
+}
+#menu-burger .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+#menu-burger .logo img {
+  width: 48px;
+  height: 48px;
+}
+#menu-burger ul {
+  width: 25%;
+  min-width: 175px;
+  background-color: #b50829;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 66px;
+  border-top: 1px solid #057ca5;
+}
+#menu-burger ul li {
+  list-style-type: none;
+  height: 15%;
+  padding: 0.44em 1em;
+}
+#menu-burger ul li:hover {
+  background-color: #057ca5;
+}
+#menu-burger ul li:active {
+  background-color: #fff;
+}
+#menu-burger ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+#menu-burger ul li a:hover {
+  color: #fff;
+}
+#menu-burger ul li.active {
+  background-color: #fff;
+}
+#menu-burger ul li.active a {
+  color: #057ca5;
 }
 /******************SCROLLBOX SLIDER*/
 .bx-wrapper .bx-prev, .bx-wrapper .bx-next {
@@ -60,7 +125,7 @@ header {
 }
 .button-slide-left, .button-slide-right {
     background-color: #b50829;
-    width: 5.8%;
+    width: 105px;
     height: auto;
     padding: 1em;
 }
@@ -89,6 +154,8 @@ header {
   margin-bottom: 0px !important;
   padding: 0;
   border-width: 0px !important;
+  position: relative;
+  z-index: 100;
 }
 
 /*************************************BURGER*/
@@ -102,7 +169,7 @@ header {
   display: none;
 }
 
-.menu {
+#menu {
   padding: 0;
   margin: 0;
   max-width: 700px;
@@ -115,7 +182,7 @@ header {
   list-style-type: none;
 }
 
-.menu li a {
+#menu li a {
   text-decoration: none;
   align-self: center;
   border-radius: 5px;
@@ -139,11 +206,13 @@ header {
 }
 /***********************PRESENTATION ACCUEIL*/
 .presentation {
-  clear: both;
-  /*padding: 0 2em;*/
-  /*background-image: url("img/cabinet.jpg");
+  background-image: url("../img/cabinet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
   width: 100%;
-  height: auto;*/
+  height: 500px;
+  position: relative;
 }
 .presentation h1 {
   font-family: 'Roboto', sans-serif;
@@ -151,9 +220,31 @@ header {
 }
 .presentation p {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+.presentation .opacity {
+  width: 40%;
+  height: auto;
+  background-color: #fff;
+  opacity: 0.8;
+  padding: 2em;
+  position: absolute;
+  left: 1%;
+  top: 36%;
 }
 /*************************NOURRISSON ACCUEIL*/
 
 /*********************FEMME ENCEINTE ACCUEIL*/
 
 /******************MEDECINE CHINOISE ACCUEIL*/
+@media (max-width: 1280px) {
+  #menu {
+    display: none;
+  }
+  #menu-burger {
+    display: flex;
+  }
+  .presentation {
+    background-position: 20% 0px;
+  }
+}
