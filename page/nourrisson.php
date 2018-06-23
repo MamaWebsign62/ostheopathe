@@ -117,7 +117,7 @@
 
         <div class="tribox">
            <img src="../img/bebe2.jpg" width="298" height="199" alt="photo-bébé">
-           <div>
+           <div class="titre2">
                <h2><i class="fa fa-circle" aria-hidden="true"></i>N'hésitez pas à envisager l'ostéopathie si vous êtes dans une des situations suivantes :</h2>
                <ul>
                  <li>Vous avez accouché sous péridurale ;</li>
@@ -131,10 +131,9 @@
            </div>
          </div>
 
-        <div class="tribox">
-
-          <div>
-            <h2 style="margin-top: 4em;"><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants :</h2>
+        <div class="tribox tribox2">
+          <div class="titre3">
+            <h2><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants :</h2>
             <ul class="liste2">
               <li>Le bébé pleure presque tout le temps, il dort très peu, il régurgite, digère mal et est souvent agité après la tétée ;</li>
               <li>Il tourne la tête toujours d'un seul côté ou positionne son corps en banane accompagné ou non d'un crâne aplati sur un côté ;</li>
@@ -142,14 +141,14 @@
             </ul>
           </div>
 
-          <img src="../img/bebe3.jpg" width="298" height="199" style="margin-top: 2em; margin-left: 2em;" alt="photo-bébé">
+          <img src="../img/bebe3.jpg" width="298" height="199" alt="photo-bébé">
         </div>
 
-        <div class="tribox">
-          <img src="../img/bebe4.jpg" width="298" height="199" style="margin-top: 3em; margin-right: 2em;" alt="photo-bébé">
+        <div class="tribox tribox3">
+          <img src="../img/bebe4.jpg" width="298" height="199" alt="photo-bébé">
 
           <div>
-            <p style="margin-top: 6em;">Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
+            <p>Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
 
             <p>N'hésitez pas à me contacter pour davantage d'informations ou bien convenir d'un premier rendez-vous.</p>
           </div>

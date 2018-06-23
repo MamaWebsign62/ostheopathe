@@ -343,7 +343,9 @@ header {
 .tribox {
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
+  justify-content: center;
+  align-items: center;
   height: 250px;
 }
 #article h1 {
@@ -353,6 +355,22 @@ header {
 #article h2 {
   color: #057ca5;
   font-size: 16px;
+}
+.titre2 h2 {
+  margin-left: 3em;
+}
+.titre2 ul {
+  margin-left: 6em;
+}
+.tribox2 img {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.tribox3 img {
+  margin-right: 2em;
+}
+.tribox3 p:first-child {
+  margin-top: 0em !important;
 }
 .left {
     float: left;
