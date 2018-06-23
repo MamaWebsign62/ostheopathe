@@ -90,25 +90,26 @@
         <div>
           <img src="img/slide1.jpg" />
           <div class="button-slide-left">
-            <a href="page/nourrisson.php">Visitez la page</a>
+            <a href="page/nourrisson.php">En savoir plus</a>
           </div>
         </div>
         <div>
           <img src="img/slide2.jpg" />
           <div class="button-slide-right">
-            <a href="page/femme-enceinte.php">Visitez la page</a>
+            <a href="page/femme-enceinte.php">Découvrir l'offre</a>
           </div>
         </div>
         <div>
           <img src="img/slide3.jpg" />
           <div class="button-slide-left">
-            <a href="page/medecine-chinoise.php">Visitez la page</a>
+            <a href="page/medecine-chinoise.php">En savoir plus</a>
           </div>
         </div>
       </div>
       <!-- BANDEAU -->
       <div class="bandeau">
-        <p class="bold">Voici quelques spécificités sur mon cabinet</p>
+        <p class="bold">Le cabinet est situé 26 rue de la République à Lyon</p>
+        <p class="bold">Pour nous joindre : appelez-le 04.74.01.02.03.</p>
       </div>
       <!-- PRESENTATION -->
       <div class="presentation">
