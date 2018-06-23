@@ -196,7 +196,7 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="colon-foot">
-        <div class="info-footer">
+        <!-- <div class="info-footer"> -->
           <ul>
             <h3>Plan du site</h3>
             <li>
@@ -237,7 +237,7 @@
               </i>
             </li>
           </ul>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="copyright">
         <i class="fa fa-copyright" aria-hidden="true"></i>
@@ -259,6 +259,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
     <script type="text/javascript" src="./js/scrollbox-slider/scrollbox.js"></script>
-    <script type="text/javascript" src=".js/main.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/jq.js"></script>
 </html>
