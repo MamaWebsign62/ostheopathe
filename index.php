@@ -52,7 +52,7 @@
     </ul>
 </div>
 
-<!-- BURGER -->
+<!-- MENU -->
       <div id="menu">
           <div class="logo">
             <img src="img/ostheo.png" alt="logo">
@@ -115,10 +115,99 @@
           <br/>
           <p>Nous vous souhaitons la bienvenue sur le site Internet de mon cabinet d'Ostéopathie de Lyon. Vous y trouverez toutes les informations indispensables et un ensemble de réponses à vos questions sur l'ostéopathie et ses pratiques.</p>
           <br/>
-          <p>Votre ostéopathe à Lyon est en mesure de vous soigner en cas de douleurs articulaires et orthopédiques comme des maux de dos, des problèmes de cervicales, des problèmes lombaires. Le praticien de l'ostéopathie peut également traiter les troubles ayant une cause neurologique, comme les sciatiques, les problèmes d'origine intercostale ou cervico-brachiale.</p>
+          <div class="button-right">
+            <a href="page/presentation.php">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+      <!-- NOURRISSON -->
+      <div class="baby">
+        <div class="opacity">
+          <h2>Osthéopathie pour nourrissons</h1>
+          <br/>
+          <p>Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
+          <br/>
+          <div class="button-left">
+            <a href="page/nourrissons.php">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+      <!-- FEMME ENCEINTE -->
+      <div class="praignant">
+        <div class="opacity">
+          <h2>Osthéopathie pour femmes enceintes</h1>
+          <br/>
+          <p>Si vous attendez un bébé, notre cabinet d'ostéopathie dispense des consultations adaptées à l'état de grossesse. N'hésitez pas à nous contacter pour davantage d'informations ou bien prendre un rendez-vous.</p>
+          <br/>
+          <div class="button-right">
+            <a href="page/femme-enceinte.php">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+      <!-- NOURRISSON -->
+      <div class="medecine">
+        <div class="opacity">
+          <h2>Osthéopathie pour nourrissons</h1>
+          <br/>
+          <p>Indéniablement, la Médecine Traditionnelle Chinoise apporte aujourd'hui à notre société une réponse crédible quant aux grands problèmes de santé.</p>
+          <br/>
+          <div class="button-left">
+            <a href="page/medecine-chinoise.php">En savoir plus</a>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+            <div class="colon-foot">
+              <div class="info-footer">
+                <ul>
+                  <h3>Nos services</h3>
+                  <li>
+                    <a href="page/index.php" target="_blank">Présentation du cabinet</a>
+                  </li>
+                  <li>
+                    <a href="page/nourrisson.php" target="_blank">Nourrisson</a>
+                  </li>
+                  <li>
+                    <a href="page/femme-enceinte.php" target="_blank">Femme enceinte</a>
+                  </li>
+                  <li>
+                    <a href="page/medecine-chinoise.php" target="_blank">Médecine chinoise</a>
+                  </li>
+                  <li>
+                    <a href="#qui-sommes-nous" target="_blank">Qui sommes-nous ?</a>
+                  </li>
+                </ul>
+                <ul>
+                  <h3>Contactez-nous</h3>
+                  <li>
+                    <a href="page/contact.php">Accédez au formulaire</a>
+                  </li>
+                </ul>
+                <ul>
+                  <h3>Suivez-nous</h3>
+                  <li>
+                    <i class="fa fa-facebook-square" aria-hidden="true">
+                      <a href="#" target="_blank">sur Facebook</a>
+                    </i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="copyright">
+              <i class="fa fa-copyright" aria-hidden="true"></i>
+              Copyright 2018 |
+              <a href="page/mentions.php" target="_blank">Mentions légales</a>
+               | <a href="https://www.ostheopathe-jeaneymare.fr" target="_blank">www.ostheopathe-jeaneymare.fr</a>
+            </div>
+          </footer>
+
+          <!-- BACK-TOP -->
+         <div id="back-top">
+           <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+         </div>
 
 
 

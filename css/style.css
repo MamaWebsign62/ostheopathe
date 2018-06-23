@@ -17,7 +17,7 @@ header {
 .logo {
   float: left;
 }
-/***********************************MENU*/
+/******************************MENU*/
 #menu {
   display: flex;
   flex-direction: row;
@@ -38,12 +38,15 @@ header {
 }
 #menu ul li a {
   text-decoration: none;
-  color: #057ca5;
+  color: #b50829;
   font-size: 16px;
   font-weight: normal;
 }
+#menu ul li a:hover {
+  color: #000;
+}
 #menu ul li a:active {
-  color: #b50829;
+  color: #057ca5;
 }
 /******************MENU BURGER*/
 #menu-burger {
@@ -123,7 +126,8 @@ header {
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
     background: #b50829 !important;
 }
-.button-slide-left, .button-slide-right {
+.button-slide-left, .button-slide-right,
+.button-right, .button-left {
     background-color: #b50829;
     width: 105px;
     height: auto;
@@ -131,15 +135,15 @@ header {
 }
 .button-slide-left {
     position: absolute;
-    left: 4em;
-    top: 20em;
+    left: 3em;
+    top: 13em;
 }
 .button-slide-right {
     position: absolute;
-    right: 4em;
-    top: 20em;
+    right: 3em;
+    top: 13em;
 }
-.button-slide-left a, .button-slide-right a {
+.button-slide-left a, .button-slide-right a, .button-right a, .button-left a {
     color: #fff; sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -157,43 +161,9 @@ header {
   position: relative;
   z-index: 100;
 }
-
-/*************************************BURGER*/
-/*  margin: 50px auto;
-  max-width: 700px;
-  width: 95%;
-}
-
-#checkbox1,
-.toggle {
-  display: none;
-}
-
-#menu {
-  padding: 0;
-  margin: 0;
-  max-width: 700px;
-  height: 50px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-}
-
-#menu li a {
-  text-decoration: none;
-  align-self: center;
-  border-radius: 5px;
-  font-size: 14px;
-  padding: 10px 15px;
-  transition: background .2s linear;
-}*/
-
 /***********************bandeau ACCUEIL*/
 .bandeau {
-  background-color: #057ca5;
+  background-color: #b50829;
   width: 100%;
   padding: 2em 0;
 }
@@ -209,10 +179,11 @@ header {
   background-image: url("../img/cabinet.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   width: 100%;
   height: 500px;
   position: relative;
+  border-bottom: 2px solid #057ca5;
 }
 .presentation h1 {
   font-family: 'Roboto', sans-serif;
@@ -222,21 +193,83 @@ header {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5em;
 }
-.presentation .opacity {
+.presentation .opacity, .opacity {
   width: 40%;
   height: auto;
   background-color: #fff;
   opacity: 0.8;
   padding: 2em;
   position: absolute;
+  top: 45%;
+}
+.opacity {
+  background-color: #fff;
+  border: 1px solid #057ca5;
+}
+.presentation .opacity, .praignant .opacity {
+  right: 1%;
+}
+.baby .opacity {
   left: 1%;
-  top: 36%;
 }
 /*************************NOURRISSON ACCUEIL*/
+.baby {
+  background-image: url("../img/bebe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: 0.7;*/
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border-bottom: 2px solid #057ca5;
+}
+.baby h2 {
+  font-size: 26px;
+  color: #b50829;
+}
+/************FEMME ENCEINTE ACCUEIL*/
+.praignant {
+  background-image: url("../img/femme-enceinte.jpg");
+  background-position: 10% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: 0.7;*/
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border-bottom: 2px solid #057ca5;
+}
+.praignant .opacity {
+    /*background-color: #b50829;*/
+}
+.praignant .opacity  h2 {
+    color: #b50829;
+}
+.praignant .opacity  p {
+    color: #000;
+}
+/*********MEDECINE CHINOISE ACCUEIL*/
+.medecine {
+  background-image: url("../img/medecine-chinoise.jpg");
+  background-position: 10% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border-bottom: 2px solid #057ca5;
+}
+.medecine .opacity {
+    left: 1%;
+}
+.medecine .opacity  h2 {
+    color: #b50829;
+}
+.medecine .opacity  p {
+    color: #000;
+}
 
-/*********************FEMME ENCEINTE ACCUEIL*/
-
-/******************MEDECINE CHINOISE ACCUEIL*/
 @media (max-width: 1280px) {
   #menu {
     display: none;
