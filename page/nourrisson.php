@@ -116,37 +116,43 @@
         <h1>Ostéopathe pour nourrisson, Jean Eymare</h1>
 
         <div class="tribox">
-          <img class="left" src="../img/bebe2.jpg" width="298" height="199" alt="photo-bébé">
-        </br>
+           <img src="../img/bebe2.jpg" width="298" height="199" alt="photo-bébé">
+           <div>
+               <h2><i class="fa fa-circle" aria-hidden="true"></i>N'hésitez pas à envisager l'ostéopathie si vous êtes dans une des situations suivantes :</h2>
+               <ul>
+                 <li>Vous avez accouché sous péridurale ;</li>
+                 <li>En cas de grossesse gémellaire ;</li>
+                 <li>Si votre accouchement a été lent (plus de 8 heures) ou rapide (moins de 2 heures) ;</li>
+                 <li>Si la présentation s'est faite par le front ou en siège ;</li>
+                 <li>Si votre bébé est prématuré ;</li>
+                 <li>Si le médecin a utilisé des spatules, des ventouses ou des forceps ou s'il y a eu une césarienne ;</li>
+                 <li>Si le cordon s'est enroulé autour du cou du bébé ou s'il y a eu souffrance foetale ou réanimation de votre enfant.</li>
+               </ul>
+           </div>
+         </div>
 
-          <h2><i class="fa fa-circle" aria-hidden="true"></i>N'hésitez pas à envisager l'ostéopathie si vous êtes dans une des situations suivantes :</h2>
-          <ul>
-            <li>Vous avez accouché sous péridurale ;</li>
-            <li>En cas de grossesse gémellaire ;</li>
-            <li>Si votre accouchement a été lent (plus de 8 heures) ou rapide (moins de 2 heures) ;</li>
-            <li>Si la présentation s'est faite par le front ou en siège ;</li>
-            <li>Si votre bébé est prématuré ;</li>
-            <li>Si le médecin a utilisé des spatules, des ventouses ou des forceps ou s'il y a eu une césarienne ;</li>
-            <li>Si le cordon s'est enroulé autour du cou du bébé ou s'il y a eu souffrance foetale ou réanimation de votre enfant.</li>
-          </ul>
+        <div class="tribox">
+
+          <div>
+            <h2 style="margin-top: 4em;"><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants :</h2>
+            <ul class="liste2">
+              <li>Le bébé pleure presque tout le temps, il dort très peu, il régurgite, digère mal et est souvent agité après la tétée ;</li>
+              <li>Il tourne la tête toujours d'un seul côté ou positionne son corps en banane accompagné ou non d'un crâne aplati sur un côté ;</li>
+              <li>Il présente des troubles à répétition de type bronchiolites, respiration bruyante ou otites. </li>
+            </ul>
+          </div>
+
+          <img src="../img/bebe3.jpg" width="298" height="199" style="margin-top: 2em; margin-left: 2em;" alt="photo-bébé">
         </div>
 
         <div class="tribox">
-          <img class="right" src="../img/bebe3.jpg" width="298" height="199" style="margin-top: 4em;" alt="photo-bébé">
-          <br>
-          <h2 style="margin-top: 4em;"><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants :</h2>
-          <ul class="liste2">
-            <li>Le bébé pleure presque tout le temps, il dort très peu, il régurgite, digère mal et est souvent agité après la tétée ;</li>
-            <li>Il tourne la tête toujours d'un seul côté ou positionne son corps en banane accompagné ou non d'un crâne aplati sur un côté ;</li>
-            <li>Il présente des troubles à répétition de type bronchiolites, respiration bruyante ou otites. </li>
-          </ul>
-        </div>
+          <img src="../img/bebe4.jpg" width="298" height="199" style="margin-top: 3em; margin-right: 2em;" alt="photo-bébé">
 
-        <div class="tribox">
-          <img class="left" src="../img/bebe4.jpg" width="298" height="199" style="margin-top: 4em;" alt="photo-bébé">
-          <p style="margin-top: 6em;">Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
+          <div>
+            <p style="margin-top: 6em;">Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
 
-          <p>N'hésitez pas à me contacter pour davantage d'informations ou bien convenir d'un premier rendez-vous.</p>
+            <p>N'hésitez pas à me contacter pour davantage d'informations ou bien convenir d'un premier rendez-vous.</p>
+          </div>
         </div>
       </section>
     </div>
@@ -154,7 +160,7 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="colon-foot">
-        <div class="info-footer">
+        <!-- <div class="info-footer"> -->
           <ul>
             <h3>Plan du site</h3>
             <li>
@@ -195,7 +201,7 @@
               </i>
             </li>
           </ul>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="copyright">
         <i class="fa fa-copyright" aria-hidden="true"></i>
