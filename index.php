@@ -8,12 +8,11 @@
     <meta name="keywords" content="HTML, CSS, Bootstrap, JavaScript" />
     <meta name="author" content="Marianne" />
     <title>Jean Eymare, osthéopathe</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./js/scrollbox-slider/style-scrollbox.css" />
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
 
@@ -22,7 +21,9 @@
 <!-- BURGER -->
 <div id="menu-burger">
     <div class="logo">
-      <img src="img/ostheo.png" alt="logo">
+      <a href="index.php">
+        <img src="./img/ostheo.png" alt="logo">
+      </a>
       <div class="burger">
         <span></span>
         <span></span>
@@ -34,22 +35,22 @@
         <a href="index.php">Accueil</a>
       </li>
       <li rel="nourrisson">
-        <a href="page/nourrisson.php">Nourrisson</a>
+        <a href="nourrisson.php">Nourrisson</a>
       </li>
       <li rel="femme">
-        <a href="page/femme-enceinte.php">Femme enceinte</a>
+        <a href="femme-enceinte.php">Femme enceinte</a>
       </li>
       <li rel="medecine">
-        <a href="page/medecine-chinoise.php">Médecine chinoise</a>
+        <a href="medecine-chinoise.php">Médecine chinoise</a>
       </li>
       <li rel="agee">
-        <a href="page/personne-agee.php">Personne âgée</a>
+        <a href="personne-agee.php">Personne âgée</a>
       </li>
       <li rel="contact">
-        <a href="page/contact.php">Nous contacter</a>
+        <a href="contact.php">Nous contacter</a>
       </li>
       <li rel="plan">
-        <a href="page/plan-acces.php">Plan d'accès</a>
+        <a href="plan-acces.php">Plan d'accès</a>
       </li>
     </ul>
 </div>
@@ -57,29 +58,31 @@
 <!-- MENU -->
       <div id="menu">
           <div class="logo">
-            <img src="img/ostheo.png" alt="logo">
+            <a href="index.php">
+              <img src="./img/ostheo.png" alt="logo">
+            </a>
           </div>
           <ul>
             <li>
-              <a href="index.php" rel="accueil">Accueil</a>
+              <a href="./index.php" rel="accueil">Accueil</a>
             </li>
             <li>
-              <a href="page/nourrisson.php" rel="nourrisson">Nourrisson</a>
+              <a href="./nourrisson.php" rel="nourrisson">Nourrisson</a>
             </li>
             <li>
-              <a href="page/femme-enceinte.php" rel="femme">Femme enceinte</a>
+              <a href="femme-enceinte.php" rel="femme">Femme enceinte</a>
             </li>
             <li>
-              <a href="page/medecine-chinoise.php" rel="medecine">Médecine chinoise</a>
+              <a href="./medecine-chinoise.php" rel="medecine">Médecine chinoise</a>
             </li>
             <li>
-              <a href="page/personne-agee.php" rel="agee">Personne âgée</a>
+              <a href="./personne-agee.php" rel="agee">Personne âgée</a>
             </li>
             <li>
-              <a href="page/contact.php" rel="contact">Nous contacter</a>
+              <a href="./contact.php" rel="contact">Nous contacter</a>
             </li>
             <li>
-              <a href="page/plan-acces.php"rel="plan">Plan d'accès</a>
+              <a href="./plan-acces.php"rel="plan">Plan d'accès</a>
             </li>
           </ul>
       </div>
@@ -88,21 +91,21 @@
 
       <div class="bxslider">
         <div>
-          <img src="img/slide1.jpg" />
+          <img src="./img/slide1.jpg" />
           <div class="button-slide-left">
-            <a href="page/nourrisson.php">En savoir plus</a>
+            <a href="nourrisson.php">En savoir plus</a>
           </div>
         </div>
         <div>
           <img src="img/slide2.jpg" />
           <div class="button-slide-right">
-            <a href="page/femme-enceinte.php">Découvrir l'offre</a>
+            <a href="femme-enceinte.php">Découvrir l'offre</a>
           </div>
         </div>
         <div>
-          <img src="img/slide3.jpg" />
+          <img src="./img/slide3.jpg" />
           <div class="button-slide-left">
-            <a href="page/medecine-chinoise.php">En savoir plus</a>
+            <a href="medecine-chinoise.php">En savoir plus</a>
           </div>
         </div>
       </div>
@@ -131,7 +134,7 @@
           <p>Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
           <br/>
           <div class="button-left">
-            <a href="page/nourrissons.php">En savoir plus</a>
+            <a href="nourrissons.php">En savoir plus</a>
           </div>
         </div>
       </div>
@@ -143,7 +146,7 @@
           <p>Si vous attendez un bébé, notre cabinet d'ostéopathie dispense des consultations adaptées à l'état de grossesse. N'hésitez pas à nous contacter pour davantage d'informations ou bien prendre un rendez-vous.</p>
           <br/>
           <div class="button-right">
-            <a href="page/femme-enceinte.php">En savoir plus</a>
+            <a href="femme-enceinte.php">En savoir plus</a>
           </div>
         </div>
       </div>
@@ -155,7 +158,7 @@
           <p>Indéniablement, la Médecine Traditionnelle Chinoise apporte aujourd'hui à notre société une réponse crédible quant aux grands problèmes de santé.</p>
           <br/>
           <div class="button-left">
-            <a href="page/medecine-chinoise.php">En savoir plus</a>
+            <a href="medecine-chinoise.php">En savoir plus</a>
           </div>
         </div>
       </div>
@@ -167,7 +170,7 @@
           <p>Promouvoir le « mieux vieillir » en maintenant un bon état global, physique, et psychique de l’individu par une action de prévention tout au long de la vie, garantit son capital santé. Par exemple, les traitements ostéopathiques améliorent l’équilibre, diminuent les douleurs ressenties à court et long termes et ainsi participent à l’amélioration de la qualité de vie.</p>
           <br/>
           <div class="button-right">
-            <a href="page/personne-agee.php">En savoir plus</a>
+            <a href="personne-agee.php">En savoir plus</a>
           </div>
         </div>
       </div>
@@ -197,32 +200,32 @@
           <ul>
             <h3>Plan du site</h3>
             <li>
-              <a href="page/index.php">Accueil</a>
+              <a href="index.php">Accueil</a>
             </li>
             <li>
-              <a href="page/nourrisson.php" target="_blank">Nourrisson</a>
+              <a href="nourrisson.php" target="_blank">Nourrisson</a>
             </li>
             <li>
-              <a href="page/femme-enceinte.php" target="_blank">Femme enceinte</a>
+              <a href="femme-enceinte.php" target="_blank">Femme enceinte</a>
             </li>
             <li>
-              <a href="page/medecine-chinoise.php" target="_blank">Médecine chinoise</a>
+              <a href="medecine-chinoise.php" target="_blank">Médecine chinoise</a>
             </li>
             <li>
-              <a href="page/personne-agee.php" target="_blank">Personne âgée</a>
+              <a href="personne-agee.php" target="_blank">Personne âgée</a>
             </li>
             <li>
-              <a href="page/contact.php" target="_blank">Contact</a>
+              <a href="contact.php" target="_blank">Contact</a>
             </li>
             <li>
-              <a href="page/plan-acces.php">Plan d'accès</a>
+              <a href="plan-acces.php">Plan d'accès</a>
             </li>
           </ul>
 
           <ul>
             <h3>Contactez-nous</h3>
             <li>
-              <a href="page/contact.php">Accédez au formulaire</a>
+              <a href="contact.php">Accédez au formulaire</a>
             </li>
           </ul>
 
@@ -239,7 +242,7 @@
       <div class="copyright">
         <i class="fa fa-copyright" aria-hidden="true"></i>
         Copyright 2018 |
-          <a href="page/mentions.php" target="_blank">Mentions légales</a>
+          <a href="mentions.php" target="_blank">Mentions légales</a>
           | <a href="https://www.ostheopathe-jeaneymare.fr" target="_blank">www.ostheopathe-jeaneymare.fr</a>
       </div>
     </footer>
@@ -256,6 +259,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
     <script type="text/javascript" src="./js/scrollbox-slider/scrollbox.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src=".js/main.js"></script>
     <script type="text/javascript" src="./js/jq.js"></script>
 </html>

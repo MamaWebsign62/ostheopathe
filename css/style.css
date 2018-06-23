@@ -402,14 +402,15 @@ header {
     background-color: #b50829;
 }
 .colon-foot {
-    width: 85%;
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-}
-.colon-foot ul {
-    flex-grow: 1;
-}
+   width: 100%;
+   flex-direction: row;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+ }
+ .colon-foot ul {
+    flex-grow: 0;
+ }
 .colon-foot ul h3 {     Sun,Arial,sans-serif;
   color: #000;
   font-size: 21px;
