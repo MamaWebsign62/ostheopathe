@@ -343,7 +343,6 @@ header {
 .tribox {
   display:flex;
   flex-direction: row;
-  /*justify-content: space-between;*/
   justify-content: center;
   align-items: center;
   height: 250px;
@@ -404,14 +403,14 @@ header {
 }
 .colon-foot {
     width: 85%;
-    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
 .colon-foot ul {
-    display: inline-grid;
-    width: auto;
-    margin-left: 135px;
+    flex-grow: 1;
 }
-.colon-foot ul h3 { Sun,Arial,sans-serif;
+.colon-foot ul h3 {     Sun,Arial,sans-serif;
   color: #000;
   font-size: 21px;
 }
