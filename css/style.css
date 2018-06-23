@@ -332,8 +332,17 @@ header {
     font-weight: bold;
 }
 /*SECTION******************/
+
 #article {
-    padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 900px;
+  padding: 3em;
+}
+.tribox {
+  flex-wrap: wrap;
+  height: 250px;
 }
 #article h1 {
     color: #b50829;

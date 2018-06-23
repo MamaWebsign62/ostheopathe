@@ -30,7 +30,7 @@
     </div>
     <ul>
       <li rel="accueil">
-        <a href="./index.php">Accueil</a>
+        <a href="../index.php">Accueil</a>
       </li>
       <li rel="nourrisson">
         <a href="nourrisson.php">Nourrisson</a>
@@ -87,19 +87,19 @@
 
       <div class="bxslider">
         <div>
-          <img src="../img/slide1.jpg" />
+          <img src="../img/slide1.jpg"/>
           <div class="button-slide-left">
             <a href="nourrisson.php">En savoir plus</a>
           </div>
         </div>
         <div>
-          <img src="../img/slide2.jpg" />
+          <img src="../img/slide2.jpg"/>
           <div class="button-slide-right">
             <a href="femme-enceinte.php">Découvrir l'offre</a>
           </div>
         </div>
         <div>
-          <img src="../img/slide3.jpg" />
+          <img src="../img/slide3.jpg"/>
           <div class="button-slide-left">
             <a href="medecine-chinoise.php">En savoir plus</a>
           </div>
@@ -113,8 +113,9 @@
 
       <!-- SECTION -->
       <section id="article">
-    
-          <h1>Ostéopathe pour nourrisson, Jean Eymare</h1>
+        <h1>Ostéopathe pour nourrisson, Jean Eymare</h1>
+
+        <div class="tribox">
           <img class="left" src="../img/bebe2.jpg" width="298" height="199" alt="photo-bébé">
         </br>
 
@@ -128,35 +129,25 @@
             <li>Si le médecin a utilisé des spatules, des ventouses ou des forceps ou s'il y a eu une césarienne ;</li>
             <li>Si le cordon s'est enroulé autour du cou du bébé ou s'il y a eu souffrance foetale ou réanimation de votre enfant.</li>
           </ul>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
+        </div>
 
-
-          <img class="right" src="../img/bebe3.jpg" width="298" height="148" alt="photo-bébé">
+        <div class="tribox">
+          <img class="right" src="../img/bebe3.jpg" width="298" height="199" style="margin-top: 4em;" alt="photo-bébé">
           <br>
-          <h2><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants :</h2>
+          <h2 style="margin-top: 4em;"><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants :</h2>
           <ul class="liste2">
             <li>Le bébé pleure presque tout le temps, il dort très peu, il régurgite, digère mal et est souvent agité après la tétée ;</li>
             <li>Il tourne la tête toujours d'un seul côté ou positionne son corps en banane accompagné ou non d'un crâne aplati sur un côté ;</li>
             <li>Il présente des troubles à répétition de type bronchiolites, respiration bruyante ou otites. </li>
           </ul>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
+        </div>
 
-          <img class="left" src="../img/bebe4.jpg" width="298" height="199" alt="photo-bébé">
-          <p>Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
+        <div class="tribox">
+          <img class="left" src="../img/bebe4.jpg" width="298" height="199" style="margin-top: 4em;" alt="photo-bébé">
+          <p style="margin-top: 6em;">Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
 
           <p>N'hésitez pas à me contacter pour davantage d'informations ou bien convenir d'un premier rendez-vous.</p>
-
-
+        </div>
       </section>
     </div>
 
