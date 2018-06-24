@@ -624,7 +624,7 @@ header {
 }
 /*************MENTIONS LEGALES*/
 #mentions-legales {
-  padding: 3em;
+  padding: 3em 4em;
 }
 #mentions-legales h1 {
   color: #b50829;
@@ -639,6 +639,24 @@ header {
 }
 #mentions-legales a {
     color: #b50829;
+}
+/*RGPD*/
+#gdpr-cookie-message {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  height: 60px;
+  padding: 2em;
+}
+#gdpr-cookie-message h4, #gdpr-cookie-message p {
+    width: 45%;
+}
+#gdpr-cookie-message h4, #gdpr-cookie-message p:first-child {
+    float: left;
+}
+#gdpr-cookie-message a {
+    color: #fff;
 }
 /****************MEDIA QUERIES*/
 @media (max-width: 1280px) {
