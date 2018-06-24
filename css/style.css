@@ -534,6 +534,49 @@ header {
 #back-top a .fa.fa-chevron-up:hover {
     color: #b50829;
 }
+/***************************PAGE CONTACT*/
+#form {
+  padding: 3em;
+}
+#form h1 {
+  color: #b50829;
+  margin-bottom: 2em;
+}
+.info-form {
+   width: 100%;
+   flex-direction: row;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+ }
+ .twobox {
+    flex-grow: 0;
+ }
+ #bloc_presentation {
+    height: 10%;
+}
+ #bloc_presentation p {
+    font-size: 16px;
+    color: #057ca5;
+    font-weight: bold;
+}
+.fa.fa-phone {
+    color: #b50829;
+}
+#bloc_phone, #bloc_adresse {
+    margin-bottom: 2em;
+}
+#bloc_phone p:first-child, #bloc_adresse p:first-child, #bloc_horaires p:first-child {
+    color: #b50829;
+    height: 2em;
+}
+#bloc_phone p:nth-child(2) {
+    color: #000;
+    text-decoration: none;
+}
+#bloc_phone p:nth-child(2):hover {
+    text-decoration: underline;
+}
 /****************MEDIA QUERIES*/
 @media (max-width: 1280px) {
   #menu {
