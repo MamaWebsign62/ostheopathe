@@ -611,6 +611,35 @@ header {
   text-decoration: none;
   cursor: grab;
 }
+/*PLAN D'ACCES**************/
+#plan-acces {
+  padding: 3em;
+}
+#plan-acces h1 {
+  color: #b50829;
+  margin-bottom: 2em;
+}
+#plan-acces iframe {
+  margin: 0 auto;
+}
+/*************MENTIONS LEGALES*/
+#mentions-legales {
+  padding: 3em;
+}
+#mentions-legales h1 {
+  color: #b50829;
+  margin-bottom: 3em;
+  text-align: center;
+}
+#mentions-legales h2 {
+    color: #057ca5;
+    font-size: 18px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+#mentions-legales a {
+    color: #b50829;
+}
 /****************MEDIA QUERIES*/
 @media (max-width: 1280px) {
   #menu {

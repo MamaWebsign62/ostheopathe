@@ -205,8 +205,8 @@
       <div class="copyright">
         <i class="fa fa-copyright" aria-hidden="true"></i>
         Copyright 2018 |
-          <a href="mentions.php" target="_blank">Mentions légales</a>
-          | <a href="https://www.ostheopathe-jeaneymare.fr" target="_blank">www.ostheopathe-jeaneymare.fr</a>
+          <a href="mentions.php">Mentions légales</a>
+          | <a href="https://www.ostheopathe-jeaneymare.fr">www.ostheopathe-jeaneymare.fr</a>
       </div>
     </footer>
 

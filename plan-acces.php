@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="./js/scrollbox-slider/style-scrollbox.css" />
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+
   </head>
 
 
@@ -112,8 +120,9 @@
             </div>
 
         <!-- SECTION -->
-        <section>
-          
+        <section id="plan-acces">
+          <h1>Plan d'accès du cabinet</h1>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.4160911903386!2d4.833388750611594!3d45.76285082138509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea56125502c9%3A0xaf5762cf732a4c68!2s26+Rue+de+la+R%C3%A9publique%2C+69000+Lyon!5e0!3m2!1sfr!2sfr!4v1529841623353" width="100%" height="450" frameborder="0" style="border: 1px solid #b50829;" allowfullscreen></iframe>
         </section>
    </div>   <!--container-fluid -->
 
@@ -166,8 +175,8 @@
       <div class="copyright">
         <i class="fa fa-copyright" aria-hidden="true"></i>
         Copyright 2018 |
-          <a href="mentions.php" target="_blank">Mentions légales</a>
-          | <a href="https://www.ostheopathe-jeaneymare.fr" target="_blank">www.ostheopathe-jeaneymare.fr</a>
+          <a href="mentions.php">Mentions légales</a>
+          | <a href="https://www.ostheopathe-jeaneymare.fr">www.ostheopathe-jeaneymare.fr</a>
       </div>
     </footer>
 
