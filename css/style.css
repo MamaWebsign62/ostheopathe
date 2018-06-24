@@ -331,7 +331,7 @@ header {
     color: #b50829;
     font-weight: bold;
 }
-/*SECTION******************/
+/*SECTION*****NOURRISSON****/
 
 #article {
   display: flex;
@@ -392,8 +392,23 @@ header {
 #article p {
     margin-top: 2.5em;
 }
-/*NOURRISSON******************/
-
+.titre4 {
+  margin-left: 3em;
+}
+/*FEMME******************/
+.tribox-femme {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.article-femme p {
+  margin-top:0px !important;
+}
+.paragraph-box {
+    margin-left: 5em;
+}
 /**************************FOOTER*/
 .footer {
     width: 100%;
