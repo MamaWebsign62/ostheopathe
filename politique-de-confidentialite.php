@@ -226,19 +226,19 @@
               <a href="index.php">Accueil</a>
             </li>
             <li>
-              <a href="nourrisson.php" target="_blank">Nourrisson</a>
+              <a href="nourrisson.php">Nourrisson</a>
             </li>
             <li>
-              <a href="femme-enceinte.php" target="_blank">Femme enceinte</a>
+              <a href="femme-enceinte.php">Femme enceinte</a>
             </li>
             <li>
-              <a href="medecine-chinoise.php" target="_blank">Médecine chinoise</a>
+              <a href="medecine-chinoise.php">Médecine chinoise</a>
             </li>
             <li>
-              <a href="personne-agee.php" target="_blank">Personne âgée</a>
+              <a href="personne-agee.php">Personne âgée</a>
             </li>
             <li>
-              <a href="contact.php" target="_blank">Contact</a>
+              <a href="contact.php">Contact</a>
             </li>
             <li>
               <a href="plan-acces.php">Plan d'accès</a>

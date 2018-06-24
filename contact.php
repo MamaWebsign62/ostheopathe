@@ -281,30 +281,30 @@
     <footer class="footer">
       <div class="colon-foot">
         <!-- <div class="info-footer"> -->
-          <ul>
-            <h3>Plan du site</h3>
-            <li>
-              <a href="index.php">Accueil</a>
-            </li>
-            <li>
-              <a href="nourrisson.php" target="_blank">Nourrisson</a>
-            </li>
-            <li>
-              <a href="femme-enceinte.php" target="_blank">Femme enceinte</a>
-            </li>
-            <li>
-              <a href="medecine-chinoise.php" target="_blank">Médecine chinoise</a>
-            </li>
-            <li>
-              <a href="personne-agee.php" target="_blank">Personne âgée</a>
-            </li>
-            <li>
-              <a href="contact.php" target="_blank">Contact</a>
-            </li>
-            <li>
-              <a href="plan-acces.php">Plan d'accès</a>
-            </li>
-          </ul>
+        <ul>
+          <h3>Plan du site</h3>
+          <li>
+            <a href="index.php">Accueil</a>
+          </li>
+          <li>
+            <a href="nourrisson.php">Nourrisson</a>
+          </li>
+          <li>
+            <a href="femme-enceinte.php">Femme enceinte</a>
+          </li>
+          <li>
+            <a href="medecine-chinoise.php">Médecine chinoise</a>
+          </li>
+          <li>
+            <a href="personne-agee.php">Personne âgée</a>
+          </li>
+          <li>
+            <a href="contact.php">Contact</a>
+          </li>
+          <li>
+            <a href="plan-acces.php">Plan d'accès</a>
+          </li>
+        </ul>
 
           <ul>
             <h3>Contactez-nous</h3>
