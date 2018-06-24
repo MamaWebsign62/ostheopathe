@@ -535,6 +535,7 @@ header {
     color: #b50829;
 }
 /***************************PAGE CONTACT*/
+/*presentation*/
 #form {
   padding: 3em;
 }
@@ -576,6 +577,39 @@ header {
 }
 #bloc_phone p:nth-child(2):hover {
     text-decoration: underline;
+}
+/*formulaire*/
+.formulaire p {
+  color: #b50829;
+  height: 3em;
+}
+.formulaire input {
+  height: 23px;
+  border: 1px solid #057ca5;
+  float: right;
+  width: 27em;
+}
+.formulaire textarea {
+  border: 1px solid #057ca5;
+}
+.formulaire .captcha {
+  float: none;
+  width: 3em;
+  margin-top: 2em;
+}
+.formulaire .send {
+  float: right;
+  margin-top: 2em;
+  background-color: #b50829;
+  width: 105px;
+  height: auto;
+  padding: 1em;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: grab;
 }
 /****************MEDIA QUERIES*/
 @media (max-width: 1280px) {
