@@ -396,6 +396,9 @@ header {
   margin-left: 3em;
 }
 /*FEMME******************/
+.article-femme {
+  height: 1090px !important;
+}
 .tribox-femme {
   display:flex;
   flex-direction: row;
@@ -408,6 +411,26 @@ header {
 }
 .paragraph-box {
     margin-left: 5em;
+}
+/*MEDECINE CHINOISE*************/
+.article-medecine {
+  height: 1380px !important;
+}
+.tribox-medecine {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.article-medecine p {
+  margin-top: 0.5em !important;
+}
+.paragraph-box .medecine-chinoise{
+    margin-left: 5em;
+}
+.paragraph-box2 {
+    margin-left: 2em !important;
 }
 /**************************FOOTER*/
 .footer {
