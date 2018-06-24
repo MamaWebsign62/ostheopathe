@@ -255,7 +255,7 @@
     <div id="gdpr-cookie-message" style="">
       <h4>Cookies &amp; Confidentialité</h4>
       <p>Ce site utilise des cookies pour vous assurer la meilleure expérience sur notre site.</p>
-      <p class="info-rgpd"><a href="/privacy/">Plus d'informations</a>
+      <p class="info-rgpd"><a href="politique-de-confidentialite.php">Plus d'informations</a>
         <button id="gdpr-cookie-accept" type="button">Accepter</button>
       </p>
     </div>

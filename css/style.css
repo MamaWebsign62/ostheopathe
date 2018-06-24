@@ -642,7 +642,7 @@ header {
 }
 /*RGPD*/
 #gdpr-cookie-message {
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0;
   width: 100%;
   background-color: grey;
@@ -666,6 +666,45 @@ header {
 }
 .info-rgpd {
   width: 30% !important;
+}
+#gdpr-cookie-message a:hover {
+ /* your css here */
+}
+#gdpr-cookie-message h4 {
+ /* your css here */
+}
+#gdpr-cookie-message p:last-child {
+ /* your css here */
+}
+#gdpr-cookie-message button {
+ /* your css here */
+}
+#gdpr-cookie-message button:hover {
+ /* your css here */
+}
+/***********************CONFIDENTIALITE*/
+#confidentialite {
+  padding: 3em 4em;
+}
+#confidentialite h1 {
+  color: #b50829;
+  margin-bottom: 3em;
+  text-align: center;
+}
+#confidentialite h2 {
+    color: #057ca5;
+    font-size: 18px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+#confidentialite h3 {
+    color: #b50829;
+    font-size: 16px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+#confidentialite a {
+    color: #b50829;
 }
 /****************MEDIA QUERIES*/
 @media (max-width: 1280px) {

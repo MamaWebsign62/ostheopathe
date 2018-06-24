@@ -49,7 +49,7 @@ function i_have_cookies(){
    $('body').ihavecookies({
        title: "Cookies et confidentialité",
        message: "Ce site utilise des cookies pour vous assurer la meilleure expérience sur notre site.",
-       link: "/privacy/",
+       link: "politique-de-confidentialite.php",
        delay: 2000,
        expires: 30, // 30 days
        cookieTypes: [
