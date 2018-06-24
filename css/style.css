@@ -647,16 +647,25 @@ header {
   width: 100%;
   background-color: grey;
   height: 60px;
-  padding: 2em;
+  padding: 1em;
 }
-#gdpr-cookie-message h4, #gdpr-cookie-message p {
+#gdpr-cookie-message h4 {
+    width: 16%;
+    float: left;
+}
+#gdpr-cookie-message p {
     width: 45%;
+    float: left;
 }
 #gdpr-cookie-message h4, #gdpr-cookie-message p:first-child {
     float: left;
 }
 #gdpr-cookie-message a {
     color: #fff;
+    float: left;
+}
+.info-rgpd {
+  width: 30% !important;
 }
 /****************MEDIA QUERIES*/
 @media (max-width: 1280px) {

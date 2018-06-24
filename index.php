@@ -242,7 +242,7 @@
       <div class="copyright">
         <i class="fa fa-copyright" aria-hidden="true"></i>
         Copyright 2018 |
-          <a href="mentions.php">Mentions légales</a>
+          <a href="mentions.php">Mentions légales</a> | <a href="politique-de-confidentialite.php">Politique de confidentialité</a>
           | <a href="https://www.ostheopathe-jeaneymare.fr">www.ostheopathe-jeaneymare.fr</a>
       </div>
     </footer>
@@ -255,20 +255,17 @@
     <div id="gdpr-cookie-message" style="">
       <h4>Cookies &amp; Confidentialité</h4>
       <p>Ce site utilise des cookies pour vous assurer la meilleure expérience sur notre site.</p>
-      <p><a href="/privacy/">Plus d'informations</a>
+      <p class="info-rgpd"><a href="/privacy/">Plus d'informations</a>
         <button id="gdpr-cookie-accept" type="button">Accepter</button>
       </p>
     </div>
 
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="./js/scrollbox-slider/scrollbox.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
-    <script type="text/javascript" src="./js/jq.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
-        crossorigin="anonymous"></script>
-    <script src="js/jquery.ihavecookies.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="./js/scrollbox-slider/scrollbox.js"></script>
+  <script src="./js/jquery.ihavecookies.min.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/jq.js"></script>
 </html>
