@@ -432,6 +432,20 @@ header {
 .paragraph-box2 {
     margin-left: 2em !important;
 }
+/*PERSONNE AGEE*************/
+.article-personne {
+  height: 1050px !important;
+}
+.tribox-personne {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.article-personne p {
+    margin-top: 0.5em !important;
+}
 /**************************FOOTER*/
 .footer {
     width: 100%;
