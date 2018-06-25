@@ -120,7 +120,7 @@ header {
   opacity: 1 !important;
 }
 .bx-wrapper .bx-pager {
-  padding-top: 0px;
+ padding-top: 0px !important;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
     background-color: #057ca5 !important;
@@ -143,10 +143,14 @@ header {
    width: 103px;
 }
 .button-slide-right {
-    position: absolute;
-    right: 3em;
-    bottom: 3em;
-    width: 112px;
+   position: absolute;
+   right: 3em;
+   bottom: 3em;
+}
+.button-slide-right a{
+  display: block;
+  padding: 1em;
+  width: 113px;
 }
 .button-slide-left a, .button-slide-right a, .button-right a, .button-left a {
     color: #fff; sans-serif;
