@@ -27,7 +27,7 @@ $config = array(
     </div>
     <!-- NOURRISSON -->
     <div class="baby">
-      <div class="opacity opacity-nourrisson">
+      <div class="opacity">
         <h2>Osthéopathie pour nourrissons</h2>
         <br/>
         <p>Au moyen d'une approche naturelle, l'ostéopathe diagnostiquera et rectifiera les dysfonctionnements mineurs à l'origine des troubles. Grâce aux mains de l'ostéopathe, votre nouveau-né regagnera toute la joie de vivre que vous lui souhaitez.</p>
@@ -39,7 +39,7 @@ $config = array(
     </div>
     <!-- FEMME ENCEINTE -->
     <div class="pregnant">
-      <div class="opacity opacity-femme">
+      <div class="opacity">
         <h2>Osthéopathie pour femmes enceintes</h2>
         <br/>
         <p>Si vous attendez un bébé, notre cabinet d'ostéopathie dispense des consultations adaptées à l'état de grossesse. N'hésitez pas à nous contacter pour davantage d'informations ou bien prendre un rendez-vous.</p>
@@ -51,7 +51,7 @@ $config = array(
     </div>
     <!-- MEDECINE CHINOISE -->
     <div class="medecine">
-      <div class="opacity opacity-medecine">
+      <div class="opacity">
         <h2>Médecine chinoise</h2>
         <br/>
         <p>Indéniablement, la Médecine Traditionnelle Chinoise apporte aujourd'hui à notre société une réponse crédible quant aux grands problèmes de santé.</p>

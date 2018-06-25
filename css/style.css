@@ -48,6 +48,9 @@ header {
 #menu ul li a:active {
   color: #057ca5;
 }
+#menu ul li a.active {
+  color: #057ca5;
+}
 /******************MENU BURGER*/
 #menu-burger {
   display: none;
@@ -126,8 +129,7 @@ header {
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
     background: #b50829 !important;
 }
-.button-slide-left, .button-slide-right,
-.button-right, .button-left {
+.button-slide-left, .button-slide-right, .button-right, .button-left {
     background-color: #b50829;
     width: 105px;
     height: auto;
@@ -200,7 +202,7 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2em;
   position: absolute;
-  top: 40%;
+  bottom: 1em;
 }
 .opacity {
   border: 1px solid #057ca5;
@@ -221,9 +223,6 @@ header {
   position: relative;
   border-bottom: 2px solid #057ca5;
 }
-.opacity-nourrisson {
-  top: 45%;
-}
 .baby h2 {
   font-size: 26px;
   color: #b50829;
@@ -238,9 +237,6 @@ header {
   height: 500px;
   position: relative;
   border-bottom: 2px solid #057ca5;
-}
-.opacity-femme {
-  top: 49%;
 }
 .pregnant .opacity  h2 {
     color: #b50829;
@@ -263,9 +259,6 @@ header {
 .medecine .opacity {
     left: 1%;
 }
-.opacity-medecine {
-  top: 49%;
-}
 .medecine .opacity  h2 {
     color: #b50829;
 }
@@ -286,7 +279,7 @@ header {
 }
 .agee .opacity {
     right: 1%;
-    top: 38%;
+    bottom: 1em;
 }
 .agee .opacity  h2 {
     color: #b50829;
@@ -300,11 +293,11 @@ header {
   background-position: 10% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.7;
   width: 100%;
-  height: 500px;
   position: relative;
   border-bottom: 2px solid #057ca5;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 .qui .opacity-bg  h2 {
     color: #b50829;
@@ -313,12 +306,7 @@ header {
     width: 90%;
     height: auto;
     margin: 0 auto !important;
-    /*background-color: #fff;
-    opacity: 0.8;*/
     padding: 1em;
-    position: absolute;
-    top: 2%;
-    left: 3.5%;
 }
 .qui .opacity-bg span {
     color: #b50829;
@@ -333,7 +321,7 @@ header {
   padding: 3em;
 }
 
-#article.nourrisson{
+#article {
   padding: 3em 15em;
 }
 
@@ -513,7 +501,7 @@ header {
     width: 30px;
     height: 30px;
     position: fixed;
-    bottom: 50px;
+    bottom: 300px;
     right: 4px;
     z-index: 999;
 }
@@ -540,6 +528,7 @@ header {
 #form h1 {
   color: #b50829;
   margin-bottom: 2em;
+  margin-left: 10em;
 }
 .info-form {
    width: 100%;
@@ -641,44 +630,57 @@ header {
 /*RGPD*/
 #gdpr-cookie-message {
   position: fixed;
-  bottom: 0;
+  bottom: 20px;
+  right: 20px;
   width: 100%;
-  background-color: grey;
-  height: 60px;
+  background-color: #3a3645;
+  /*height: 140px;*/
+  width: 30%;
   padding: 1em;
 }
 #gdpr-cookie-message h4 {
-    width: 16%;
-    float: left;
+  color: #057ca5;
+  margin-bottom: 2em;
 }
 #gdpr-cookie-message p {
-    width: 45%;
-    float: left;
+    color: #fff;
+    margin-bottom: 1em;
 }
 #gdpr-cookie-message h4, #gdpr-cookie-message p:first-child {
-    float: left;
+    /*float: left;*/
 }
 #gdpr-cookie-message a {
-    color: #fff;
-    float: left;
+  color: #fff;
 }
-.info-rgpd {
-  width: 30% !important;
+#gdpr-cookie-message a {
+  color: #fff;
+  display: block;
+  position: absolute;
+  bottom: 49px;
+  right: 16px;
+  text-decoration: none;
 }
 #gdpr-cookie-message a:hover {
- /* your css here */
+  text-decoration: underline;
 }
-#gdpr-cookie-message h4 {
- /* your css here */
-}
-#gdpr-cookie-message p:last-child {
- /* your css here */
+#gdpr-cookie-types > * {
+  color: #fff;
+  list-style-type: none;
+  margin-bottom: 10px;
 }
 #gdpr-cookie-message button {
- /* your css here */
+  float: right;
+  background-color: #057ca5;
+  color: #fff;
+  border: none;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
 }
 #gdpr-cookie-message button:hover {
- /* your css here */
+  background-color: #b50829;
+}
+#gdpr-cookie-message button:first-child {
+  margin-left: 1em;
 }
 /***********************CONFIDENTIALITE*/
 #confidentialite {
@@ -710,9 +712,38 @@ header {
     display: none;
   }
   #menu-burger {
-    display: flex;
+    display: none;
   }
   .presentation {
     background-position: 20% 0px;
+  }
+  .opacity{
+    width:80% !important;
+    right: 0;
+  }
+}
+
+@media (max-width: 780px) {
+  .colon-foot{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .colon-foot ul{
+    margin-bottom: 2em;
+  }
+  .button-slide-left {
+    left: calc(50% - 52.5px - 1em);
+    bottom: calc(50% - 24px);
+  }
+  .button-slide-right {
+    right: calc(50% - 52.5px - 1em);
+    bottom: calc(50% - 24px);
+  }
+  .bx-pager{
+    display:none;
+  }
+  .bandeau .bold{
+    font-size:20px;
   }
 }

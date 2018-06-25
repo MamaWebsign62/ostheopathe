@@ -4,7 +4,7 @@ function slider(){
       controls: true,
       speed: 1000,
       mode: 'fade',
-      auto: true,
+      auto: false,
       pause: 5000,
   });
 }
@@ -41,37 +41,37 @@ function menu_active(){
 function i_have_cookies(){
    $('body').ihavecookies({
        title: "Cookies et confidentialité",
-       message: "Ce site utilise des cookies pour vous assurer la meilleure expérience sur notre site.",
+       message: "Ce site utilise des cookies pour vous assurer la meilleure expérience de navigation.",
        link: "politique-de-confidentialite.php",
        delay: 2000,
        expires: 30, // 30 days
        cookieTypes: [
            {
-               type: 'Site Preferences',
+               type: 'Préférences du site',
                value: 'preferences',
-               description: 'These are cookies that are related to your site preferences, e.g. remembering your username, site colours, etc.'
+               description: 'Il s\'agit de cookies liés aux préférences du site, par ex. se souvenir de votre nom d\'utilisateur, des couleurs du site, etc.'
            },
            {
                type: 'Analytics',
                value: 'analytics',
-               description: 'Cookies related to site visits, browser types, etc.'
+               description: 'Il s\'agit de cookies liés à l\'analyse d\'audience.'
            },
            {
                type: 'Marketing',
                value: 'marketing',
-               description: 'Cookies related to marketing, e.g. newsletters, social media, etc'
+               description: 'Il s\'agit de cookies liés au marketing.'
            }
        ],
 
        onAccept: function(){},
 
-       moreInfoLabel: 'More information',
-       acceptBtnLabel: 'Accept Cookies',
-       advancedBtnLabel: 'Customise Cookies',
+       moreInfoLabel: 'Plus d\'informations',
+       acceptBtnLabel: 'Accepter les cookies',
+       advancedBtnLabel: 'Modifier les cookies',
        uncheckBoxes: false, // Unchecks all checkboxes on page load that have class .ihavecookies
-       cookieTypesTitle: 'Select cookies to accept',
-       fixedCookieTypeLabel:'Necessary',
-       fixedCookieTypeDesc: 'These are cookies that are essential for the website to work correctly.',
+       cookieTypesTitle: 'Sélectionner les cookies à accepter :',
+       fixedCookieTypeLabel:'Nécessaire',
+       fixedCookieTypeDesc: 'Ce sont des cookies qui sont essentiels pour que le site fonctionne correctement.',
    });
 }
 

@@ -38,7 +38,7 @@
         <h3>Suivez-nous</h3>
         <li>
           <i class="fa fa-facebook-square" aria-hidden="true">
-            <a href="#" target="_blank">sur Facebook</a>
+            <a href="https://facebook.com" target="_blank">sur Facebook</a>
           </i>
         </li>
       </ul>
