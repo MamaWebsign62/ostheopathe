@@ -1,0 +1,30 @@
+/****************MEDIA QUERIES TABLET*/
+@media (max-width: 1280px) {
+  #menu {
+    display: none;
+  }
+  #menu-burger {
+    display: flex;
+  }
+  #menu-burger ul{
+    display: none;
+  }
+  #menu-burger .burger{
+    cursor: pointer;
+  }
+  .presentation {
+    background-position: 20% 0px;
+  }
+  .opacity{
+    width:80% !important;
+    right: 0;
+  }
+  #article {
+    padding: 3em 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  #article h1{
+    align-self: flex-start;
+  }
+}

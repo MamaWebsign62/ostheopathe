@@ -1,7 +1,9 @@
 <!-- BURGER -->
 <div id="menu-burger">
     <div class="logo">
-      <img src="./img/ostheo.png" alt="logo">
+      <a href="index.php">
+        <img src="img/ostheo.png" alt="logo">
+      </a>
       <div class="burger">
         <span></span>
         <span></span>
@@ -36,7 +38,9 @@
 <!-- MENU -->
 <div id="menu">
     <div class="logo">
-      <img src="img/ostheo.png" alt="logo">
+      <a href="index.php">
+        <img src="img/ostheo.png" alt="logo">
+      </a>
     </div>
     <ul>
       <li>

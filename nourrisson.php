@@ -36,7 +36,7 @@ $config = array(
 
   <div class="tribox tribox2">
     <div class="titre3">
-      <h2><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants :</h2>
+      <h2><i class="fa fa-circle" aria-hidden="true"></i>Les signes du nourrisson nécessitant un traitement ostéopathique sont les suivants&nbsp;:</h2>
       <ul class="liste2">
         <li>Le bébé pleure presque tout le temps, il dort très peu, il régurgite, digère mal et est souvent agité après la tétée ;</li>
         <li>Il tourne la tête toujours d'un seul côté ou positionne son corps en banane accompagné ou non d'un crâne aplati sur un côté ;</li>

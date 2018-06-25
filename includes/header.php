@@ -22,6 +22,9 @@ if(!isset($config['keywords']) || $config['keywords'] == ""){
     <title>Jean Eymare, osthéopathe | <?php echo $config['title']; ?></title>
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/phone.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+
   </head>
 
 

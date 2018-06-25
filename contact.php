@@ -167,11 +167,11 @@ $config = array(
         <!-- FORMULAIRE DE CONTACT -->
         <div class="twobox info-form-right">
           <form method="post" action="<?php echo strip_tags($_SERVER['REQUEST_URI']); ?>" class="formulaire">
-            <p>Votre nom et prénom: <input type="text" name="nom" size="30" /></p>
-            <p>Votre email: <span style="color:#b50829;">*</span>: <input type="text" name="email" size="30" /></p>
-            <p>Message <span style="color:#b50829;">*</span>:</p>
-            <textarea name="message" cols="60" rows="10" placeholder="Saississez votre message"></textarea>
-            <p>Combien font 1+3 <span style="color:#b50829;">*</span> : <input type="text" name="captcha" size="2" class="captcha" /></p>
+            <p><span>Votre nom et prénom : </span><input type="text" name="nom" size="30" /></p>
+            <p><span>Votre email <span style="color:#b50829;">*</span> :  </span><input type="text" name="email" size="30" /></p>
+            <p><span>Message <span style="color:#b50829;">*</span> :</span></p>
+            <textarea name="message" cols="41" rows="10" placeholder="Saississez votre message"></textarea>
+            <p><span>Combien font 1+3 <span style="color:#b50829;">*</span> : <input type="text" name="captcha" size="2" class="captcha" /></span></p>
             <p><input class="send" type="submit" name="submit" value="Envoyer" /></p>
           </form>
         </div>  <!-- info-form-right -->

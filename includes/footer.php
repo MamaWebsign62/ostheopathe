@@ -5,32 +5,40 @@
     <ul>
       <h3>Plan du site</h3>
       <li>
-        <a href="index.php">Accueil</a>
+        <a href="index.php" rel="accueil">Accueil</a>
       </li>
       <li>
-        <a href="nourrisson.php">Nourrisson</a>
+        <a href="nourrisson.php" rel="nourrisson">Nourrisson</a>
       </li>
       <li>
-        <a href="femme-enceinte.php">Femme enceinte</a>
+        <a href="femme-enceinte.php" rel="femme">Femme enceinte</a>
       </li>
       <li>
-        <a href="medecine-chinoise.php">Médecine chinoise</a>
+        <a href="medecine-chinoise.php" rel"medecine">Médecine chinoise</a>
       </li>
       <li>
-        <a href="personne-agee.php">Personne âgée</a>
+        <a href="personne-agee.php" rel="agee">Personne âgée</a>
       </li>
       <li>
-        <a href="contact.php">Contact</a>
+        <a href="contact.php" rel="contact">Contact</a>
       </li>
       <li>
-        <a href="plan-acces.php">Plan d'accès</a>
+        <a href="plan-acces.php" rel="plan">Plan d'accès</a>
       </li>
     </ul>
 
       <ul>
         <h3>Contactez-nous</h3>
         <li>
-          <a href="contact.php">Accédez au formulaire</a>
+          <ul>
+            <li>Jean Eymare</li>
+            <li>26 rue de la République</li>
+            <li>69103 Lyon</li>
+          </ul>
+        </li>
+        <li>04.74.01.02.03.</li>
+        <li>
+          <a href="contact.php" class="underline">Accédez au formulaire</a>
         </li>
       </ul>
 
@@ -45,11 +53,10 @@
     <!-- </div> -->
   </div>
   <div class="copyright">
-    <i class="fa fa-copyright" aria-hidden="true"></i>
-    Copyright 2018 |
-      <a href="mentions.php">Mentions légales</a>
-      | <a href="politique-de-confidentialite.php">Politique de confidentialité</a><br/>
-       <a href="https://www.ostheopathe-jeaneymare.fr">www.ostheopathe-jeaneymare.fr</a>
+    &copy;&nbsp;Copyright&nbsp;2018&nbsp;|
+    <a href="mentions.php">Mentions&nbsp;légales</a>&nbsp;|
+    <a href="politique-de-confidentialite.php">Politique&nbsp;de&nbsp;confidentialité</a><br/>
+       <a href="index.php">www.ostheopathe-jeaneymare.fr</a>
   </div>
 </footer>
 

@@ -1,0 +1,80 @@
+/****************MEDIA QUERIES PHONE*/
+@media (max-width: 780px) {
+  .colon-foot{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .colon-foot ul{
+    margin-bottom: 2em;
+  }
+  .button-slide-left {
+    left: calc(50% - 52.5px - 1em);
+    bottom: calc(50% - 24px);
+  }
+  .button-slide-right {
+    right: calc(50% - 52.5px - 1em);
+    bottom: calc(50% - 24px);
+  }
+  .bx-pager{
+    display:none;
+  }
+  .bandeau .bold{
+    font-size:20px;
+  }
+  .opacity h1 {
+    font-size: 26px;
+  }
+  #article {
+    padding: 3em 0em;
+    justify-content: center;
+    align-items: center;
+  }
+  .tribox, .tribox-femme, .tribox-medecine, .tribox-personne{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .tribox-femme{
+    margin-top: 0em;
+  }
+  .tribox img, .tribox-femme img, .tribox-medecine img, .tribox-personne img{
+    order: 1;
+    margin: 1em 0em ;
+    width:100%;
+    height: auto;
+  }
+  .tribox div, .tribox-femme div, .tribox-medecine div, .tribox-personne div{
+    order: 2;
+  }
+  .titre2 h2,.titre3 h2{
+    margin-left: 2em;
+  }
+  #article .fa{
+    margin-bottom: 0em;
+  }
+  .titre2 ul{
+    margin-left: 3em;
+    margin-top: 1em;
+  }
+  .titre3, .titre4 {
+    margin: 0;
+    padding: 0em;
+  }
+  .tribox3 div, .titre3 p{
+    padding-left: 1em;
+  }
+  .paragraph-box, .paragraph-box2{
+    margin: 1em 1em ;
+  }
+  .paragraph-box2 p{
+    padding:0;
+  }
+  .titre4 div{
+    margin-top: 2em;
+  }
+  #form, #plan-acces, #mentions-legales, #confidentialite{
+    padding: 1em;
+  }
+}

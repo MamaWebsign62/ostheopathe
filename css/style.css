@@ -83,19 +83,13 @@ header {
   height: 48px;
 }
 #menu-burger ul {
-  width: 25%;
   min-width: 175px;
   background-color: #b50829;
-  position: absolute;
   z-index: 999;
-  right: 0;
-  top: 66px;
   border-top: 1px solid #057ca5;
 }
 #menu-burger ul li {
   list-style-type: none;
-  height: 15%;
-  padding: 0.44em 1em;
 }
 #menu-burger ul li:hover {
   background-color: #057ca5;
@@ -105,6 +99,8 @@ header {
 }
 #menu-burger ul li a {
   color: #fff;
+  padding: .6em 1em;
+  display: block;
   text-decoration: none;
 }
 #menu-burger ul li a:hover {
@@ -330,7 +326,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 250px;
+  margin-bottom: 4em;
 }
 #article h1 {
     color: #b50829;
@@ -342,9 +338,13 @@ header {
 }
 .titre2 h2 {
   margin-left: 3em;
+  margin-bottom: 2em;
 }
 .titre2 ul {
   margin-left: 6em;
+}
+.titre3 h2{
+  margin-bottom: 2em;
 }
 .tribox2 img {
   margin-top: 2em;
@@ -362,7 +362,7 @@ header {
 }
 #article .fa {
   margin-right: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 #article ul {
     /*margin-left: 24.5em;*/
@@ -380,16 +380,16 @@ header {
 .titre4 {
   margin-left: 3em;
 }
-/*FEMME******************/
-.article-femme {
-  height: 1090px !important;
+.titre4 div{
+  margin-top: 2em;
 }
+/*FEMME******************/
 .tribox-femme {
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  margin-top: 4em;
 }
 .article-femme p {
   margin-top:0px !important;
@@ -399,14 +399,13 @@ header {
 }
 /*MEDECINE CHINOISE*************/
 .article-medecine {
-  height: 1380px !important;
 }
 .tribox-medecine {
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  margin-bottom: 4em;
 }
 .article-medecine p {
   margin-top: 0.5em !important;
@@ -415,18 +414,17 @@ header {
     margin-left: 5em;
 }
 .paragraph-box2 {
-    margin-left: 2em !important;
+    margin-left: 2em;
 }
 /*PERSONNE AGEE*************/
 .article-personne {
-  height: 1050px !important;
 }
 .tribox-personne {
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  margin-bottom: 4em;
 }
 .article-personne p {
     margin-top: 0.5em !important;
@@ -456,6 +454,7 @@ header {
     list-style-type: none;
     width: 100%;
     margin-top: 30px;
+    color: #fff;
 }
 .colon-foot ul li a {
     font-family: Lato,Arial,sans-serif;
@@ -467,8 +466,18 @@ header {
     text-decoration: underline;
     color: #000;
 }
+.colon-foot ul li a.active {
+    color: #000;
+}
+.underline {
+  text-decoration: underline !important;
+}
 .colon-foot ul li {
   margin-top: 24px;
+}
+.colon-foot ul li ul li{
+  margin-top: 0;
+  color: #fff;
 }
 .fa.fa-facebook-square:before {
   margin-right: 20px;
@@ -483,7 +492,6 @@ header {
 .copyright {
   color: #fff;
   margin: 70px auto 0 auto;
-  width: 29%;
   font-family: Lato,Arial,san057ca5s-serif;
   text-align: center;
 }
@@ -523,22 +531,31 @@ header {
 /***************************PAGE CONTACT*/
 /*presentation*/
 #form {
-  padding: 3em;
+  width: 70%;
+  margin: auto auto;
+  padding: 2em 0em;
 }
 #form h1 {
   color: #b50829;
   margin-bottom: 2em;
-  margin-left: 10em;
 }
 .info-form {
    width: 100%;
    flex-direction: row;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    flex-wrap: wrap;
  }
  .twobox {
     flex-grow: 0;
+ }
+ .info-form-left{
+   margin-bottom: 2em;
+ }
+ .formulaire p{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
  }
  #bloc_presentation {
     height: 10%;
@@ -568,7 +585,7 @@ header {
 /*formulaire*/
 .formulaire p {
   color: #b50829;
-  height: 3em;
+  margin-bottom: 1em;
 }
 .formulaire input {
   height: 23px;
@@ -705,45 +722,4 @@ header {
 }
 #confidentialite a {
     color: #b50829;
-}
-/****************MEDIA QUERIES*/
-@media (max-width: 1280px) {
-  #menu {
-    display: none;
-  }
-  #menu-burger {
-    display: none;
-  }
-  .presentation {
-    background-position: 20% 0px;
-  }
-  .opacity{
-    width:80% !important;
-    right: 0;
-  }
-}
-
-@media (max-width: 780px) {
-  .colon-foot{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .colon-foot ul{
-    margin-bottom: 2em;
-  }
-  .button-slide-left {
-    left: calc(50% - 52.5px - 1em);
-    bottom: calc(50% - 24px);
-  }
-  .button-slide-right {
-    right: calc(50% - 52.5px - 1em);
-    bottom: calc(50% - 24px);
-  }
-  .bx-pager{
-    display:none;
-  }
-  .bandeau .bold{
-    font-size:20px;
-  }
 }

@@ -4,7 +4,7 @@ function slider(){
       controls: true,
       speed: 1000,
       mode: 'fade',
-      auto: false,
+      auto: true,
       pause: 5000,
   });
 }
@@ -35,7 +35,7 @@ function menu_active(){
     default:
       rel = "accueil";
   }
-  $("#menu-burger li[rel='"+rel+"'], #menu a[rel='"+rel+"']").addClass("active");
+  $("#menu-burger li[rel='"+rel+"'], #menu a[rel='"+rel+"'], .colon-foot a[rel='"+rel+"']").addClass("active");
 }
 
 function i_have_cookies(){
@@ -100,9 +100,17 @@ function back_top(){
   });
 };
 
+function menu_burger(){
+  $("#menu-burger .burger").click(function(){
+    console.log("yata");
+    $("#menu-burger ul").toggle();
+  });
+}
+
 $(document).ready(function(){
   slider();
   menu_active();
   i_have_cookies();
   back_top();
+  menu_burger();
 });
