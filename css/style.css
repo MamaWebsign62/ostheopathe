@@ -119,6 +119,9 @@ header {
 .bx-wrapper:hover .bx-prev, .bx-wrapper:hover .bx-next {
   opacity: 1 !important;
 }
+.bx-wrapper .bx-pager {
+  padding-top: 0px;
+}
 .bx-wrapper .bx-pager.bx-default-pager a {
     background-color: #057ca5 !important;
 }
@@ -127,14 +130,17 @@ header {
 }
 .button-slide-left, .button-slide-right, .button-right, .button-left {
     background-color: #b50829;
-    width: 105px;
     height: auto;
-    padding: 1em;
 }
 .button-slide-left {
     position: absolute;
     left: 3em;
     bottom: 3em;
+}
+.button-slide-left a {
+   display: block;
+   padding: 1em;
+   width: 103px;
 }
 .button-slide-right {
     position: absolute;

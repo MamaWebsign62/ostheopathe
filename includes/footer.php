@@ -14,7 +14,7 @@
         <a href="femme-enceinte.php" rel="femme">Femme enceinte</a>
       </li>
       <li>
-        <a href="medecine-chinoise.php" rel"medecine">Médecine chinoise</a>
+        <a href="medecine-chinoise.php" rel="medecine">Médecine chinoise</a>
       </li>
       <li>
         <a href="personne-agee.php" rel="agee">Personne âgée</a>
