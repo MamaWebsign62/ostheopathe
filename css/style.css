@@ -136,12 +136,12 @@ header {
 .button-slide-left {
     position: absolute;
     left: 3em;
-    top: 13em;
+    bottom: 3em;
 }
 .button-slide-right {
     position: absolute;
-    right: 2.5em;
-    top: 13em;
+    right: 3em;
+    bottom: 3em;
     width: 112px;
 }
 .button-slide-left a, .button-slide-right a, .button-right a, .button-left a {
@@ -173,7 +173,7 @@ header {
   text-align: center;
 }
 .bold {
-  font-size: 30px;
+  font-size: 26px;
 }
 /***********************PRESENTATION ACCUEIL*/
 .presentation {
@@ -197,17 +197,15 @@ header {
 .presentation .opacity, .opacity {
   width: 40%;
   height: auto;
-  background-color: #fff;
-  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 2em;
   position: absolute;
   top: 40%;
 }
 .opacity {
-  background-color: #fff;
   border: 1px solid #057ca5;
 }
-.presentation .opacity, .praignant .opacity {
+.presentation .opacity, .pregnant .opacity {
   right: 1%;
 }
 .baby .opacity {
@@ -218,7 +216,6 @@ header {
   background-image: url("../img/bebe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /*opacity: 0.7;*/
   width: 100%;
   height: 500px;
   position: relative;
@@ -232,27 +229,23 @@ header {
   color: #b50829;
 }
 /************FEMME ENCEINTE ACCUEIL*/
-.praignant {
+.pregnant {
   background-image: url("../img/femme-enceinte.jpg");
   background-position: 10% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  /*opacity: 0.7;*/
   width: 100%;
   height: 500px;
   position: relative;
   border-bottom: 2px solid #057ca5;
 }
-.praignant .opacity {
-    /*background-color: #b50829;*/
-}
 .opacity-femme {
   top: 49%;
 }
-.praignant .opacity  h2 {
+.pregnant .opacity  h2 {
     color: #b50829;
 }
-.praignant .opacity  p {
+.pregnant .opacity  p {
     color: #000;
 }
 /*********MEDECINE CHINOISE ACCUEIL*/
@@ -337,13 +330,17 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 900px;
   padding: 3em;
 }
+
+#article.nourrisson{
+  padding: 3em 15em;
+}
+
 .tribox {
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 250px;
 }
@@ -518,6 +515,7 @@ header {
     position: fixed;
     bottom: 50px;
     right: 4px;
+    z-index: 999;
 }
 #back-top:hover {
   background-color: #fff;
@@ -642,7 +640,7 @@ header {
 }
 /*RGPD*/
 #gdpr-cookie-message {
-  /*position: fixed;*/
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: grey;

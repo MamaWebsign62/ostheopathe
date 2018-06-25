@@ -38,13 +38,6 @@ function menu_active(){
   $("#menu-burger li[rel='"+rel+"'], #menu a[rel='"+rel+"']").addClass("active");
 }
 
-$(document).ready(function(){
-  slider();
-  menu_active();
-  i_have_cookies();
-});
-
-
 function i_have_cookies(){
    $('body').ihavecookies({
        title: "Cookies et confidentialité",
@@ -81,3 +74,35 @@ function i_have_cookies(){
        fixedCookieTypeDesc: 'These are cookies that are essential for the website to work correctly.',
    });
 }
+
+function back_top(){
+  $('#back-top').hide();
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+      $('#back-top').fadeIn();
+    } else {
+      $('#back-top').fadeOut();
+    }
+  });
+
+  $('#back-top').click(function(){
+    $('html, body').animate({scrollTop: 0}, 800);
+    return false;
+  });
+  // SCROLL ANCRE
+  $('a[href^="#"]').click(function(){
+    var the_id = $(this).attr("href");
+
+    $('html, body').animate({
+      scrollTop:$(the_id).offset().top       // Régler problème inscrit dans la console
+    }, 1000);
+    return false;
+  });
+};
+
+$(document).ready(function(){
+  slider();
+  menu_active();
+  i_have_cookies();
+  back_top();
+});
