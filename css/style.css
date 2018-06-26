@@ -130,6 +130,7 @@ header {
 }
 .button-slide-left, .button-slide-right, .button-right, .button-left {
     background-color: #b50829;
+    width: 140px !important;
     height: auto;
 }
 .button-slide-left {
@@ -137,7 +138,7 @@ header {
     left: 3em;
     bottom: 3em;
 }
-.button-slide-left a {
+.button-slide-left a, .button-left a {
    display: block;
    padding: 1em;
    width: 103px;
@@ -147,7 +148,7 @@ header {
    right: 3em;
    bottom: 3em;
 }
-.button-slide-right a{
+.button-slide-right a, .button-right a{
   display: block;
   padding: 1em;
   width: 113px;
