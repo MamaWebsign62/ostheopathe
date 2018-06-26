@@ -9,15 +9,24 @@
     margin-bottom: 2em;
   }
   .button-slide-left {
+    display: none;
     left: calc(50% - 52.5px - 1em);
     bottom: calc(50% - 24px);
   }
   .button-slide-right {
+    display: none;
     right: calc(50% - 52.5px - 1em);
     bottom: calc(50% - 24px);
   }
-  .bx-pager{
+  .bx-prev, .bx-next {
     display:none;
+  }
+  .bx-wrapper .bx-pager {
+    bottom: 4px !important;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a {
+    width: 5px !important;
+    height: 5px !important;
   }
   .bandeau .bold{
     font-size:20px;
@@ -76,5 +85,27 @@
   }
   #form, #plan-acces, #mentions-legales, #confidentialite{
     padding: 1em;
+  }
+  #gdpr-cookie-message {
+    width: 80%;
+    height: 80%;
+    z-index: 999;
+  }
+  #gdpr-cookie-message button {
+    margin-bottom: 7px;
+    clear: both;
+    float: none;
+    position: absolute;
+    right: 10px;
+  }
+  #gdpr-cookie-accept {
+    bottom: 40px;
+  }
+  #gdpr-cookie-advanced {
+    bottom: 10px;
+  }
+  #gdpr-cookie-message p a{
+    right: 10px;
+    bottom: 90px;
   }
 }
